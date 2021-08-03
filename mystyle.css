@@ -1,0 +1,148 @@
+html {
+    text-align: center;
+    background-color: beige;
+    margin: 0 auto 0 auto;
+    padding: 0 auto 0 auto;
+}
+
+section {
+    border-style: dashed;
+    margin: 0px auto 0px auto;
+    width: 80%;
+}
+
+h2 {
+    font-size: 2vw;
+    margin-top: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    height: 100%;
+    background-image: url("succulents.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+}
+
+.title {
+    margin: 0 auto 0 auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 4.5vw;
+}
+
+header p {
+    margin: 0px auto 0px auto;
+    padding-bottom: 1%;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 2vw;
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+nav ul {
+    width: 100%;
+    font-size: 1.2vw;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1% 2% 1% 2%;
+}
+
+table {
+    display: block;
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+table tr td {
+    width: 20%;
+    overflow: auto;
+}
+
+img {
+    width: 80%;
+}
+
+img:hover {
+    width: 100%;
+}
+
+figcaption {
+    font-size: 1.3vw;
+}
+
+.texts {
+    width: 60%;
+    margin: 0 auto 0 auto;
+    font-size: 1.5vw;
+    padding: 0;
+}
+
+.fbicon {
+    border-radius: 50%;
+    background-color: #4267B2;
+    margin: 1%;
+    padding-right: 0.55%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.igicon {
+    margin: 1%;
+    padding: 1% 0.8% 1% 0.8%;
+    border-radius: 50%;
+    background-color: #833AB4;
+}
+
+.fa {
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: none;
+    margin: 1%;
+    color: white;
+  }
+
+ .texts a:hover {
+    opacity: 0.7;
+  }
+
+footer {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+
+footer ul {
+    padding: 1.5%;
+    margin: 0;
+    font-size: 1.2vw;
+    max-width: 100%;
+    text-align: center;
+}
+
+footer ul li {
+    padding: 2% 2% 1% 2%;
+    list-style-type: none;
+    display: inline-block;
+}
